@@ -85,43 +85,43 @@ Following are the WordPress website types you can create website based on Cache 
 ##### Standard sites
 
 
- cache          | PHP     | example
--------- -------------- | ------- | -------------------------------------------
- no cache       | PHP 7.2 | `wo site create site.tld --wp`
-          no cache       | PHP 7.3 | `wo site create site.tld --wp --php73`
-          fastcgi_cache  | PHP 7.2 | `wo site create site.tld --wpfc`
-          fastcgi_cache  | PHP 7.3 | `wo site create site.tld --wpfc --php73`
-          wp-super-cache | PHP 7.2 | `wo site create site.tld --wpsc`
-          wp-super-cache | PHP 7.3 | `wo site create site.tld --wpsc --php73`
-          redis-cache    | PHP 7.2 | `wo site create site.tld --wpredis`
-          redis-cache    | PHP 7.3 | `wo site create site.tld --wpredis --php73`
+| cache | PHP | example |
+|-------- | ------- | ---------------- |
+| no cache | PHP 7.2 | `wo site create site.tld --wp` |
+| no cache | PHP 7.3 | `wo site create site.tld --wp --php73` |
+| fastcgi_cache | PHP 7.2 | `wo site create site.tld --wpfc` |
+| fastcgi_cache | PHP 7.3 | `wo site create site.tld --wpfc --php73` |
+| wp-super-cache | PHP 7.2 | `wo site create site.tld --wpsc` |
+| wp-super-cache | PHP 7.3 | `wo site create site.tld --wpsc --php73` |
+| redis-cache | PHP 7.2 | `wo site create site.tld --wpredis` |
+| redis-cache | PHP 7.3 | `wo site create site.tld --wpredis --php73` |
 
 
 ##### Multisite subdirectory
 
- cache          | PHP     | example
- -------------- | ------- | -------------------------------------------
- no cache       | PHP 7.2 | `wo site create site.tld --wpsubdir`
-          no cache       | PHP 7.3 | `wo site create site.tld --wpsubdir --php73`
-          fastcgi_cache  | PHP 7.2 | `wo site create site.tld --wpsubdir --wpfc`
-          fastcgi_cache  | PHP 7.3 | `wo site create site.tld --wpsubdir --wpfc --php73`
-          wp-super-cache | PHP 7.2 | `wo site create site.tld --wpsubdir --wpsc`
-          wp-super-cache | PHP 7.3 | `wo site create site.tld --wpsubdir --wpsc --php73`
-          redis-cache    | PHP 7.2 | `wo site create site.tld --wpsubdir --wpredis`
-          redis-cache    | PHP 7.3 | `wo site create site.tld --wpsubdir --wpredis --php73`
+| cache | PHP | example |
+| --- | ------- | ----------------- |
+| no cache | PHP 7.2 | `wo site create site.tld --wpsubdir` |
+| no cache | PHP 7.3 | `wo site create site.tld --wpsubdir --php73` |
+| fastcgi_cache | PHP 7.2 | `wo site create site.tld --wpsubdir --wpfc` |
+| fastcgi_cache | PHP 7.3 | `wo site create site.tld --wpsubdir --wpfc --php73` |
+| wp-super-cache | PHP 7.2 | `wo site create site.tld --wpsubdir --wpsc` |
+| wp-super-cache | PHP 7.3 | `wo site create site.tld --wpsubdir --wpsc --php73` |
+| redis-cache | PHP 7.2 | `wo site create site.tld --wpsubdir --wpredis` |
+| redis-cache | PHP 7.3 | `wo site create site.tld --wpsubdir --wpredis --php73` |
 
 ##### Multisite subdomain
 
- cache          | PHP     | example
--------------- | ------- | -------------------------------------------------
- no cache       | PHP 7.2 | `wo site create site.tld --wpsubdom`
-          no cache       | PHP 7.3 | `wo site create site.tld --wpsubdom --php73`
-          fastcgi_cache  | PHP 7.2 | `wo site create site.tld --wpsubdir --wpfc`
-          fastcgi_cache  | PHP 7.3 | `wo site create site.tld --wpsubdom --wpfc --php73`
-          wp-super-cache | PHP 7.2 | `wo site create site.tld --wpsubdom --wpsc`
-          wp-super-cache | PHP 7.3 | `wo site create site.tld --wpsubdom --wpsc --php73`
-          redis-cache    | PHP 7.2 | `wo site create site.tld --wpsubdom --wpredis`
-          redis-cache    | PHP 7.3 | `wo site create site.tld --wpsubdom --wpredis --php73`
+| cache | PHP | example |
+|------ | ------- | ---------- |
+| no cache | PHP 7.2 | `wo site create site.tld --wpsubdom` |
+| no cache | PHP 7.3 | `wo site create site.tld --wpsubdom --php73` |
+| fastcgi_cache | PHP 7.2 | `wo site create site.tld --wpsubdir --wpfc` |
+| fastcgi_cache | PHP 7.3 | `wo site create site.tld --wpsubdom --wpfc --php73` |
+| wp-super-cache | PHP 7.2 | `wo site create site.tld --wpsubdom --wpsc` |
+| wp-super-cache | PHP 7.3 | `wo site create site.tld --wpsubdom --wpsc --php73` |
+| redis-cache | PHP 7.2 | `wo site create site.tld --wpsubdom --wpredis` |
+| redis-cache | PHP 7.3 | `wo site create site.tld --wpsubdom --wpredis --php73` |
 
 ##### Extra settings
 
@@ -349,7 +349,7 @@ apt autoclean
 Package update is performed in a non-interactive way, with the policy of never overwriting packages configuration with new configuration.
 
 ### update
-
+This command updates WordOps to the latest version.   
 Usage :
 
 ```bash
