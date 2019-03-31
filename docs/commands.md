@@ -361,22 +361,27 @@ wo log [<site_name>] [options]</site_name>
 
 #### log show
 
-Show Nginx, PHP, MySQL log file
+Show Nginx, PHP, MySQL log files in realtime. Run the command. Recreate the event. Stop the viewer. 
 
 Usage :
-
+To Start the Log Viewer:
 ```bash
-wo log show [<site_name>] [options]</site_name>
+wo log show [<site_name>] [options]
 ```
 
 optional arguments | description
 ------------------ | -------------------------------------
+--all (default)    | Show All Error logs file   |
 --nginx            | Show Nginx Error logs file   |
 --php              | Show PHP Error logs file |
 --mysql            | Show MySQL logs file   |
 --wp | Show Site specific WordPress logs file |
 
+To stop the log viewer:
 
+```
+Ctrl-c
+```
 
 ---
 
